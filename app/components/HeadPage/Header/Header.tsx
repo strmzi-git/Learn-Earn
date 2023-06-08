@@ -1,5 +1,5 @@
-import Container from "../Container";
-import Button from "../buttons/Button";
+import Container from "../../Container";
+import Button from "../../buttons/Button";
 import NavItem from "./navbar/NavItem";
 import NavList from "./navbar/NavList";
 
@@ -13,7 +13,7 @@ const Header = function () {
             <NavList />
           </div>
           <div className="flex items-center gap-4">
-            <Button label="Try Learn&Earn free" />
+            <Button label="Try Learn & Earn free" />
             <NavItem label="Sign In" />
           </div>
         </div>

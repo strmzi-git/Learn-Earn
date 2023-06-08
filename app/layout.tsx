@@ -1,7 +1,7 @@
 import "./globals.css";
-import { Inter } from "next/font/google";
+import { Varela } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+const varela = Varela({ subsets: ["latin"], weight: "400" });
 
 export const metadata = {
   title: "Full-stack challenges",
@@ -15,7 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={varela.className}>{children}</body>
     </html>
   );
 }

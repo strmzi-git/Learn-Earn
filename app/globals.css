@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .clippedBg-head {
-  clip-path: polygon(0 0, 100% 0, 99% 80%, 81% 78%, 52% 88%, 26% 86%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 75% 83%, 48% 90%, 22% 87%, 0 100%);
 }
